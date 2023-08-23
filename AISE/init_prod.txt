@@ -1,0 +1,53 @@
+082323
+
+#> Build 082323
+- new API calls, still have some legacy system around so performance issue is to be expected
+- thread is removed on some system where it cause some desync
+- hide some prototype
+- finishing image editor & sketch
+- add community
+- add shadow to theme
+- add prototype audio system
+- add external file overlay
+- add color picker overlay
+- add google translate
+- separation for a lot of parameters
+- refine, revamp, cleaned up, & bug fixes
+
+#> Check List priority
+- Revamp / redesign UI element trying to
+- - easy to understand, use, navigate, reachable with minimum effort
+- - reduce information overload, minimum congnitive load
+- - design clarity, aestethic, & consistency
+- - no accessibility reduction for advanced users
+
+- new API wrapper / calls for stable horde
+- - save task list (you can close the app, and when you open it again, it will try to continue the previous task that wasn't finished)
+- - retrive item from canceled or failed task, & continue / retry failed task.
+- - if image source is provided, image source will be resize to set size (max 1024px for this app) and generated image size parameter setup will be ignore.
+
+- LoRA
+- - test Auto Correction NSFW (ACN) : [medium false positive rate] if the data is not marked as NSFW but the data tags contains words related to NSFW or the data does not have a soft/mature image, then the data will be categorized into ACN.
+- - test Auto Correction Soft (ACS) : [high false positive rate] if tags contain word "sexy" or the data does not have an image with the "none" category, then the data will be categorized into ACS.
+- - test Auto Correction Horror (ACH) : [low false positive rate] attempt to separate "horror".
+- - full CivitAI page support (kinda) (very experimental) there are alot of edge cases (even normal things) are not covered. feedback on what problems you don't like/meet often is very appreciated.
+
+feedback from list above will be prioritized to be fixed in the next build.
+
+#> known issues
+- Information overlay for task / generated image displays mismatch or incorrect information
+- freeze when opening LoRA for the first time (large file load / saving issue) 
+- image preview getting resize after loading
+- generated image rate system not working properly
+
+#> Wont fix
+- image preview display black / blank images
+- - image formart is not supported
+- - to reduce memory usage, image larger than 12MB will not be downloaded
+- - - this setup will be expose in the future
+
+#> RoadMap
+- (Android) utilize back button (virtual/pysical)
+
+#> Dev Note
+
