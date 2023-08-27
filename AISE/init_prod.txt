@@ -1,24 +1,20 @@
-082323
+082823
 
-#> Build 082323
-- new API calls, still have some legacy system around so performance issue is to be expected
-- thread is removed on some system where it cause some desync
-- hide some prototype
-- finishing image editor & sketch
-- add community
-- add shadow to theme
-- add prototype audio system
+#> Build 082823
+- prototype image editor & sketch
+- early prototype animator
+- add Discovery
 - add external file overlay
 - add color picker overlay
-- add google translate
-- separation for a lot of parameters
+- add Viewer (merge Share, Info, Image Viewer (completely rewrite for the ***** times))
 - refine, revamp, cleaned up, & bug fixes
+- merge user settings & devulprs to set_hover
 
 #> Check List priority
-- Revamp / redesign UI element trying to
-- - easy to understand, use, navigate, reachable with minimum effort
-- - reduce information overload, minimum congnitive load
-- - design clarity, aestethic, & consistency
+- Revamp / redesign UI element trying to ....
+- - easy to understand, use, navigate, & reachable with minimum effort
+- - treduce information overload, minimum congnitive load
+- - give clarity, aestethic, & consistency in design
 - - no accessibility reduction for advanced users
 
 - new API wrapper / calls for stable horde
@@ -35,10 +31,7 @@
 feedback from list above will be prioritized to be fixed in the next build.
 
 #> known issues
-- Information overlay for task / generated image displays mismatch or incorrect information
-- freeze when opening LoRA for the first time (large file load / saving issue) 
 - image preview getting resize after loading
-- generated image rate system not working properly
 
 #> Wont fix
 - image preview display black / blank images
@@ -46,8 +39,15 @@ feedback from list above will be prioritized to be fixed in the next build.
 - - to reduce memory usage, image larger than 12MB will not be downloaded
 - - - this setup will be expose in the future
 
-#> RoadMap
+- generated image rate feature
+-- currently defunct feature from stable horde
+
+#> Feature proposal
 - (Android) utilize back button (virtual/pysical)
+- decouple Gallery n Discovery
+- Add Rate feature in discovery panel & merge displayed item with diffusiondb
+- user take down & block feature
 
 #> Dev Note
+- Have fun, but don't have high expectations, this is a software that was made in a hurry where many edge cases and even normal cases are not covered, as a first adopter, I hope you can provide good feedback, thank you!
 
