@@ -49,5 +49,5 @@ feedback from list above will be prioritized to be fixed in the next build.
 - user take down & block feature
 
 #> Dev Note
-- Have fun, but don't have high expectations, this is a software that was made in a hurry where many edge cases and even normal cases are not covered, as a first adopter, I hope you can provide good feedback, thank you!
+- Have fun, but don't have high expectations, this software was made in a hurry where many edge cases and even normal cases are not covered, as a first adopter, I hope you can provide good feedback, thank you!
 
