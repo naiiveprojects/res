@@ -1,0 +1,28 @@
+18.10.23
+https://naiive.itch.io/aise
+
+#> Changed
+- Remove Discovery limit
+- Reduce Gallery and Discovery Initial image load to 8
+- Expose Replacement Filter Setting (Filter)
+- Better Randomizer
+- Adjust Header button
+
+#> Fixed
+- Double Space Issue when copying prompt
+
+#> known issues
+- image preview getting resize after loading
+
+#> Wont fix
+- image preview display black / blank images
+- - image formart is not supported
+- - to reduce memory usage, image larger than 12MB will not be downloaded
+- - - this setup will be expose in the future
+
+#> Feature proposal
+- (Android) utilize back button (virtual/pysical)
+- decouple Gallery n Discovery
+- Add Rate feature in discovery panel & merge displayed item with diffusiondb
+- user take down & block feature
+
