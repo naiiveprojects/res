@@ -1,22 +1,21 @@
-18.10.23
+30.1.24
 
 https://naiive.itch.io/aise
 
 #> Changed
-- use gd.x naiiveprojects/gd.x
-- reduce binary size
-- Remove Discovery limit
-- Reduce Gallery and Discovery Initial image load to 8
-- Expose Replacement Filter Setting (Filter)
-- Better Randomizer
-- Adjust Header button
+- Revamp Icon
+- Add Textual Inversion
+    - EasyNegative
+    - Badhandv4
+    - Negfeetv2
+- Update Credits
+- UI adjustment
 
 #> Fixed
-- Double Space Issue when copying prompt
-- Partial fix web build
+- 
 
 #> Removed
-- drop MacOS support
+- Remove Prompt Addons
 
 #> known issues
 - image preview getting resize after loading
@@ -29,7 +28,3 @@ https://naiive.itch.io/aise
 
 #> Feature proposal
 - (Android) utilize back button (virtual/pysical)
-- decouple Gallery n Discovery
-- Add Rate feature in discovery panel & merge displayed item with diffusiondb
-- user take down & block feature
-
