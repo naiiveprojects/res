@@ -1,21 +1,24 @@
-30.1.24
+7.5.24
 
 https://naiive.itch.io/aise
 
+due to recent modifications in the response structure of Civit AI REST API and response in general, current AISE wrapper unable to filter content that may be considered NSFW. We kindly request your discretion while utilizing this feature.
+
+LoRA is still working but to ensure its working properly we have significantly reduced its functionality. fixing this may take a lot of time and we don't know when we can fix this since we have limited resource & time, sorry & thank you for your understanding
+
+#> Added
+- Dark Gradient Overlay Background
+
 #> Changed
-- Revamp Icon
-- Add Textual Inversion
-    - EasyNegative
-    - Badhandv4
-    - Negfeetv2
-- Update Credits
-- UI adjustment
+- Show Mobile Status bar
+- Utilize Mobile Back Button / Navigation System
+- Darken Theme Color
+- Revamp Global Animation
+- UI Tweak
 
 #> Fixed
-- 
-
-#> Removed
-- Remove Prompt Addons
+- Textual Inversion Display
+- Civit AI LoRA refrences
 
 #> known issues
 - image preview getting resize after loading
@@ -25,6 +28,3 @@ https://naiive.itch.io/aise
 - - image formart is not supported
 - - to reduce memory usage, image larger than 12MB will not be downloaded
 - - - this setup will be expose in the future
-
-#> Feature proposal
-- (Android) utilize back button (virtual/pysical)
