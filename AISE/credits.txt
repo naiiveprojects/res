@@ -1,0 +1,14 @@
+[center]AISE | Artificial Image Sketch Editor
+Project by NAIIVE | Powered by GDX
+
+AI : AI Horde
+LoRA & Textual Inversion : Civit AI
+image optimization : Resmush
+translation : Google Translate
+icon : Iconpark by byteDance
+Font : Noto Sans by google
+Artist style : SupaGruen
+
+Thank you for generous support from :
+SwordMap, jaktt1337
+[/center]
